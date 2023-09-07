@@ -1,12 +1,13 @@
 #include <stdio.h>
+
 /**
-	 * This is the preferred style for multi-line
-	 * comments in C source code.
-	 * Please use it consistently.
-	 *
-	 * Description:  A column of asterisks on the left side,
-	 * return:0 always_(success).
-	 */
+ * main - Entry point.
+ *
+ * Description: A c programm that print with printf furncyion.
+ *
+ * Return: Always 0 (success).
+*/
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
