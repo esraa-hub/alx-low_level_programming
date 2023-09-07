@@ -1,12 +1,14 @@
 #include <stdio.h>
 /**
- *main-EntryPoint
- *
- *description:aCprogram-using-puts-functionn
- *
- *return-always-0-success
-*/
+	 * This is the preferred style for multi-line
+	 * comments in C source code.
+	 * Please use it consistently.
+	 *
+	 * Description:  A column of asterisks on the left side,
+	 * return:0 always_(success).
+	 */
 int main(void)
-{puts("\"Programming is like building a multilingual puzzle");
-return (0);
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
