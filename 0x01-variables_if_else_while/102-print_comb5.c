@@ -24,7 +24,7 @@ int main(void)
 					putchar (j + 48);
 					putchar (' ');
 					putchar (h + 48);
-					putchar (h + 48);
+					putchar (k + 48);
 					if (i + j + h + k != 25)
 					{
 						putchar (',');
