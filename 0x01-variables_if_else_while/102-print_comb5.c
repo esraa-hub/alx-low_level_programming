@@ -11,6 +11,7 @@
 int main(void)
 {
 	int i = 0, j = 0, h = 0, k = 0;
+	 int num1, num2;
 
 	for (i = 0; i <= 9; ++i)
 	{
@@ -20,15 +21,20 @@ int main(void)
 			{
 				for (k = 0; k <= 9; ++k)
 				{
-					putchar (i + 48);
-					putchar (j + 48);
-					putchar (' ');
-					putchar (h + 48);
-					putchar (k + 48);
-					if (i + j + h + k != 25)
+					num1 = i + j;
+					num2 = h + k;
+					if (num1 != num2)
 					{
-						putchar (',');
+						putchar (i + 48);
+						putchar (j + 48);
 						putchar (' ');
+						putchar (h + 48);
+						putchar (k + 48);
+						if (num1 + num2 != 25)
+						{
+							putchar (',');
+							putchar (' ');
+						}
 					}
 				}
 			}
