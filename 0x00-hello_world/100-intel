@@ -1,0 +1,2 @@
+#!/bin/bash
+printf -s -masm=intel $CFILE -0 `echo $CFILE |cut  -d. -f1`.s
