@@ -3,7 +3,7 @@
 /**
  * print_to_98 - function that checks the number sign
  *
- * @n: the number to be checked
+ * @n: the number iato be checked
  */
 
 void print_to_98(int n)
