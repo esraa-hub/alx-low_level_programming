@@ -10,6 +10,7 @@
  *  and -1 if 'c' is negative
  *
  */
+ 
 void print_diagonal(int n)
 {
 	int i, j;
