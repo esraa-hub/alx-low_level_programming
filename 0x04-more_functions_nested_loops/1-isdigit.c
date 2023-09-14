@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  _isupper- function that checks the number sign
+ *   _isdigit -function that checks the number sign
  *
  * @c: the number to be checked
  *
@@ -13,6 +13,6 @@
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
-	       return (1);
+		return (1);
 	return (0);
 }
