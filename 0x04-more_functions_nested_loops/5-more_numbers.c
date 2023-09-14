@@ -10,13 +10,16 @@
  */
 void more_numbers(void)
 {
-	int i = 0;
+	int i, sec;
 
 	for (i = 0; i <= 14; i++)
 	{
-		if (i >= 10)
-			_putchar (49);
-		_putchar (i % 10 + 48);
+		if (i > 9)
+		{
+			_putchar (1 + 48);
+			sec = i % 10;
+		}
+		_putchar (sec + 48);
 	}
 	_putchar ('\n');
 }
