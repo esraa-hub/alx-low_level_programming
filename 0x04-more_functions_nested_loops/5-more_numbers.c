@@ -16,10 +16,10 @@ void more_numbers(void)
 	{
 		if (i > 9)
 		{
-			_putchar (1 + 48);
+			_putchar(1 + 48);
 			sec = i % 10;
 		}
-		_putchar (sec + 48);
+		_putchar(sec + 48);
 	}
-	_putchar ('\n');
+	_putchar('\n');
 }
