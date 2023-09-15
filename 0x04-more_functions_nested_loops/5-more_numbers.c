@@ -21,6 +21,6 @@ void more_numbers(void)
 			sec = i % 10;
 			_putchar(sec + 48);
 		}
-		_putchar('\n'); 
+		_putchar('\n');
 	}
 }
