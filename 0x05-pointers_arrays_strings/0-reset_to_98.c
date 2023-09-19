@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - writes the character c to stdout
  *
- * @n :  THIS IS The pointer to print
+ * @n :  THIS IS he pointer to print
  *
  */
 void reset_to_98(int *n)
