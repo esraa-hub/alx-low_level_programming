@@ -6,7 +6,6 @@
  * @n :  THIS IS he pointer to print
  *
  */
- 
 void reset_to_98(int *n)
 {
 	*n = 98;
