@@ -3,7 +3,7 @@
 /**
  *  print_array -function that checks the number sign
  *
- *  @a : array ls iks kcmsdlvmkslmslm
+ *  @a : array iks kcmsdlvmkslmslm
  *  @n : size of array
  *
  */
