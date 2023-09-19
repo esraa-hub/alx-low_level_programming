@@ -3,7 +3,7 @@
 /**
  *  puts2 -function that checks the number sign
  *
- *  @str :lkcmsdlvmkslmslm
+ *  @str :ls iks kcmsdlvmkslmslm
  *
  */
 void puts2(char *str)
