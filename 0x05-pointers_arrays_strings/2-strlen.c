@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- *  _strlen- function that checks the number sign
+ *  _strlen -function that checks the number sign
  *
- * @s : the number to be checked
+ *  @s :lkcmsdlvmkslmslm
  *
- * return :the number if int 
+ * Return: return 1 if 'c' is positive
+ * otherwise  0 if 'c' is zero
+ *  and -1 if 'c' is negative
  *
  */
 int _strlen(char *s)
 {
 	int l;
 
-	while (!*s)
+	while (*s != null)
 	{
 		l++;
 		s++;
 	}
 	return (l);
-	
 }
