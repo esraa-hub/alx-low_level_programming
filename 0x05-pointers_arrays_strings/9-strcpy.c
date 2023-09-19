@@ -7,7 +7,7 @@
  *  @dest : size of array
  *
   * Return: return 1 if 'c' is positive
- * otherwise  0 if 'c' is zero
+ * otherwise  0 iff 'c' is zero
  *  and -1 if 'c' is negative
  *
  */
