@@ -6,7 +6,9 @@
  * @a : the number to be checked
  * @b : the number to be swap
  *
+ *
  */
+
 void swap_int(int *a, int *b)
 {
 	int emp;
