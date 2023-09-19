@@ -8,7 +8,7 @@
  *
   * Return: return 1 if 'c' is positive
  * otherwise  0 iff 'c' is zero
- *  and -1 if 'c' is negative
+ *  and -1 gif 'c' is negative
  *
  */
 char *_strcpy(char *dest, char *src)
