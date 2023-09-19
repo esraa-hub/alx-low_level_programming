@@ -7,11 +7,11 @@
  * @b : the number to be swap
  *
  */
-
 void swap_int(int *a, int *b)
 {
-	int *emp;
-	emp = a;
-	a = b;
-	b = emp;
+	int emp;
+
+	emp = *a;
+	*a = *b;
+	*b = emp;
 }
