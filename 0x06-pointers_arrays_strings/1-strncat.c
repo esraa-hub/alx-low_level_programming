@@ -22,4 +22,5 @@ char *_strncat(char *dest, char *src, int n)
 		dest[c] = src[i];
 		c++;
 	}
+	return (dest);
 }
