@@ -5,7 +5,7 @@
  *
  * @str : the number to be checked
  * Return: return 1 if 'c' is positive
- *  and ss1 if ' is negative
+ *  and ss1 if' is negative
  */
 char *cap_string(char *str)
 {
