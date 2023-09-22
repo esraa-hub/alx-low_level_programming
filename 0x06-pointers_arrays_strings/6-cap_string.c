@@ -11,9 +11,7 @@
  */
 int isLower(char c)
 {
-	if (c >= 97 && c <= 122)
-		return (1);
-	return (0);
+	return (c >= 97 && c <= 122);
 }
 /**
  * isDelimiter -function that checks the number sign
@@ -27,7 +25,7 @@ int isLower(char c)
 int isDelimiter(char c)
 {
 	int i;
-	int delimiter[] = " \t\n,.!?\"()()";
+	char  delimiter[] = " \t\n,.!?\"(){}";
 
 	for (i = 0; i < 12; i++)
 	{
@@ -54,7 +52,7 @@ char *cap_string(char *s)
 	{
 		if (isDelimiter(*s))
 			findDelimter = 1;
-		else if (isLower(*s) && findDelimter == 1)
+		else if (isLower(*s) && findDelimter)
 		{
 			*s -= 32;
 			findDelimter = 0;
