@@ -5,7 +5,6 @@
  *
  * @c : the number to be checked
  * Return: return 1 if 'c' is positive
- * ot00herwise  0 if 'c' is zero
  *  and ss1 if 'c' is negative
  *
  */
