@@ -46,13 +46,13 @@ int isDelimiter(char c)
 char *cap_string(char *s)
 {
 	char *ptr = s;
-	int findDelimter = 1;
+	int findDelimter = 0;
 
 	while (*s)
 	{
 		if (isDelimiter(*s))
 			findDelimter = 1;
-		else if (isLower(*s) && findDelimter)
+		else if (isLower(*s) && findDelimter == 0)
 		{
 			*s -= 32;
 			findDelimter = 0;
