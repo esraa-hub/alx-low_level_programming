@@ -3,7 +3,7 @@
 /**
  *  print_chessboard -function that checks the number sign
  *
- * @a: the number to be checked
+ * @a: the umber to be checked
  */
 void print_chessboard(char (*a)[8])
 {
