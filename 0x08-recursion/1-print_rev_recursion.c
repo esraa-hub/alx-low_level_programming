@@ -3,7 +3,7 @@
 /**
  *  _print_rev_recursion -that checks the number sign
  *
- * @s : the number to be checked
+ * @s : the char to be checked
  *
  */
 void _print_rev_recursion(char *s)
