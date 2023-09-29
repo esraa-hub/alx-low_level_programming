@@ -5,8 +5,6 @@
  *
  * @s : the number to be checked
  *
- *  and -1 if 'c' is negative
- *
  */
 void _print_rev_recursion(char *s)
 {
