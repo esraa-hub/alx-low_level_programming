@@ -6,7 +6,7 @@
  * @n : the number to be checked
  *
  * Return: return 1 if 'c' is positive
- * ot00herwise  0 if 'c' is zero
+ * ot00herwise i 0 if 'c' is zero
  *  and -1 if 'c' is negative
  */
 int factorial(int n)
