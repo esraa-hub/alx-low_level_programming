@@ -3,7 +3,7 @@
 /**
  *  _print_rev_recursion -that checks the number s
  *
- *  @s : the char to be chicked
+ *  @s : the cihar to be chicked
  *
  */
 void _print_rev_recursion(char *s)
