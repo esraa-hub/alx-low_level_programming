@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
  *  square -function that checks the number sign
  *
  * @n : the number to be checked
- * @val : the number to be checked
+ * @val :he number to be checked
  *
  * Return: return 1 if 'c' is positive
  * ooo`:wqt00herwise i 0 if 'c' is zero
