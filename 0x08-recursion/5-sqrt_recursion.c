@@ -36,5 +36,7 @@ int square(int n, int val)
 		return (square(n, val + 1));
 	}
 	else
+	{
 		return (-1);
+	}
 }
