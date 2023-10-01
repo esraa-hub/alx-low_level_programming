@@ -1,5 +1,5 @@
 #include "main.h"
-
+int devid(int n, int i);
 /**
  * is_prime_number -function that checks the number sign
  *
@@ -9,7 +9,7 @@
  *oit00herwise i 0 if 'c' is zero
  *  and -1 if 'c' is negative
  */
-int devid(int n, int i);
+
 int is_prime_number(int n)
 {
 	return (devid(n, 2));
@@ -30,13 +30,13 @@ int devid(int n, int i)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		if (n % i == 0 || n <= 1)
 		{
-			return(0);
+			return (0);
 		}
-	else 
+	else
 	{
 		return (devid(n, i + 1));
 	}
