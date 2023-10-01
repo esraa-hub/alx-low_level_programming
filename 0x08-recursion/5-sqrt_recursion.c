@@ -11,7 +11,9 @@ int square(int n, int val);
  */
 int _sqrt_recursion(int n)
 {
-	return (square(n, 1));
+	if (n < 0)
+		return (-1);
+	return (square(n, 0));
 }
 /**
  *  square -function that checks the number sign
@@ -25,10 +27,10 @@ int _sqrt_recursion(int n)
  */
 int square(int n, int val)
 {
-	if (val * val == n)
-	return (val);
-	else if (val * val < n)
-		return (square(n, val + 1));
-	else
+	if (val * val > n)
 		return (-1);
+	if (val * val == n)
+		return (val);
+	return (square(n, val + 1));
+
 }
