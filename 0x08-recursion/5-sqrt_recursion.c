@@ -1,5 +1,5 @@
-#include "main.h"
-
+#include "main."
+int square(int n, int val);
 /**
  * _sqrt_recursion-function that checks the number sign
  *
@@ -9,8 +9,7 @@
  *oit00herwise i 0 if 'c' is zero
  *  and -1 if 'c' is negative
  */
-int square(int n, int val);
-int _sqrt_recursion(int n);
+ int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
 }
