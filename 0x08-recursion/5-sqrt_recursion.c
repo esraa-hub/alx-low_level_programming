@@ -9,7 +9,7 @@ int square(int n, int val);
  *oit00herwise i 0 if 'c' is zero
  *  and -1 if 'c' is negative
  */
- int _sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
 }
