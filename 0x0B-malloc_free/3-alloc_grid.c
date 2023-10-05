@@ -3,8 +3,8 @@
 /**
  *  alloc_grid-function that checks the number sign
  *
- * @width: the number if byte
  * @height:ber if byte
+ * @width:ber if byte
  * Return: return 1 if 'c' is positive
  *
  */
