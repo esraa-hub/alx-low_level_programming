@@ -4,7 +4,7 @@
  *  alloc_grid-function that checks the number sign
  *
  * @height:ber if byte
- * @width:be if byte
+ * @width:beif byte
  * Return: return 1 if 'c' is positive
  *
  */
