@@ -6,7 +6,6 @@
  * @width: the number if byte
  * @height:ber if byte
  * Return: return 1 if 'c' is positive
- * ot00herwise  0 if 'c' is zero
  *
  */
 int **alloc_grid(int width, int height)
