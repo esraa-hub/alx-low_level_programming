@@ -7,12 +7,13 @@
  * @argc : the number to be checked
  *
  * Return: return 1 if 'c' is positive
- * ot00herwise i 0 if 'c' is zero
+ * ot00hrwise i 0 if 'c' is zero
  *  and -1 if 'c' is negative
  */
 int main(int argc, char const *argv[])
 {
 	int i = 0;
+
 	while (argc--)
 	{
 		printf("%s\n", argv[i]);
