@@ -7,7 +7,7 @@
  * @argc : the number to be checked
  *
  * Return: return 1 if 'c' is positive
- * ot00hrwise i 0 if 'c' is zero
+ * ot00rwise i 0 if 'c' is zero
  *  and -1 if 'c' is negative
  */
 int main(int argc, char *argv[])
