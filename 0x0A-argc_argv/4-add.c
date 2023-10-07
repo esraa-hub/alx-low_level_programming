@@ -10,7 +10,7 @@
  * ot00hrwise i 0 if 'c' is zero
  *  and -1 if 'c' is negative
  */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	int sum = 0;
 	char *c;
