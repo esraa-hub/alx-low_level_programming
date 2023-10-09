@@ -5,7 +5,7 @@
  *
  * @s: the number to be checked
  * @n:the number to be checked
- * @b :he number to be checked
+ * @b :heumber to be checked
  *
  * Return: return 1 if 'c' is positive
  */
