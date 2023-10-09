@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _<F5>memset-function that checks the number sign
+ * _memset-function that checks the number sign
  *
  * @s: the number to be checked
  * @n:the number to be checked
