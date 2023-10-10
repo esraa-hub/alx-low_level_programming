@@ -1,6 +1,6 @@
-#ifndef _OBJECT_LINK_MACRO_H
-#define _OBJECT_LINK_MARCO_H
+#ifndef PI_H
+#define PI_H
 
-#define SIZE 1024
+#define PI 3.14159265359
 
-#endif /*_OBJECT_LINK_MACRO_H*/
+#endif // PI_H
