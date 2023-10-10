@@ -9,7 +9,6 @@
  * @owner: the charcter to be checked
  *
  * Description: return 1 if 'c' is lowercase
- * otherwise  always 0(success)
  */
 struct dog
 {
