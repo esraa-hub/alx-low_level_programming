@@ -4,7 +4,7 @@
 /**
  *  print_dog-function that checks for lowercase character
  *
- * @d: the rcter to be checked
+ * @d: te rcter to be checked
  *
  * Return:(void)
  */
