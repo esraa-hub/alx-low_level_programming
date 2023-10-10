@@ -4,7 +4,7 @@
 /**
  *  free_dog-function that checks for lowercase character
  *
- * @d: te rcter to be checked
+ * @d: t rcter to be checked
  *
  * Return:(void)
  */
