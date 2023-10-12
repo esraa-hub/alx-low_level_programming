@@ -1,4 +1,18 @@
 #include "variadic_functions.h"
+/**void formate_char(char *separator, va_list ap)
+{
+	printf("%s%c", separator, va_arg(ap, int));
+}
+void formate_int(char *separator, va_list ap)
+{
+	printf("%s%d", separator, va_arg(ap, int));
+
+}
+void formate_string(char *separator, va_list ap)
+{
+	printf("%s%f", separator, va_arg(ap, double));
+}
+*/
 /**
  * print_strings-returns the sum of all its parameters.
  *
@@ -8,55 +22,45 @@
  *
  * Return:The sum f all the parameters.
  */
+void print_all(const char *const format, ...)
+{
+    va_list args;
+    va_start(args, format);
 
-void print_all(const char * const format, ...) {
-  // Declare variables.
-  va_list args;
-  char type;
-  int i;
-  float f;
-  char *s;
+    int i = 0;
+    char c;
+    float f;
+    char *s;
 
-  // Initialize the variadic list.
-  va_start(args, format);
-
-  // Iterate over the format string.
-  i = 0;
-  while (format[i] != '\0') {
-    // Get the type of the next argument.
-    type = format[i];
-
-    // Print the argument according to its type.
-    switch (type) {
-      case 'c':
-        printf("%c", va_arg(args, char));
-        break;
-      case 'i':
-        printf("%d", va_arg(args, int));
-        break;
-      case 'f':
-        printf("%f", va_arg(args, float));
-        break;
-      case 's':
-        s = va_arg(args, char *);
-        if (s == NULL) {
-          printf("(nil)");
-        } else {
-          printf("%s", s);
+    while (format[i] != '\0')
+    {
+        if (format[i] == 'c')
+        {
+            c = (char)va_arg(args, int);
+            printf("%c", c);
         }
-        break;
-      default:
-        // Ignore any other characters in the format string.
-        break;
+        else if (format[i] == 'i')
+        {
+            int num = va_arg(args, int);
+            printf("%d", num);
+        }
+        else if (format[i] == 'f')
+        {
+            f = (float)va_arg(args, double);
+            printf("%f", f);
+        }
+        else if (format[i] == 's')
+        {
+            s = va_arg(args, char *);
+            if (s == NULL)
+                printf("(nil)");
+            else
+                printf("%s", s);
+        }
+
+        i++;
     }
 
-    // Increment the format string index.
-    i++;
-  }
-
-  // Clean up.
-  va_end(args);
-
-  // Print a new line at the end.
-  printf("\n");
+    va_end(args);
+    printf("\n");
 }
