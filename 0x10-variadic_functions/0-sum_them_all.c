@@ -2,7 +2,7 @@
 /**
  * sum_them_all-returns the sum of all its parameters.
  *
- * @n:The number of parameters.
+ * @n:The number of parametrs.
  * @...:The parameters to be summed.
  *
  * Return:The sum of all the parameters.
