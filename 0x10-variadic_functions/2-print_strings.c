@@ -6,7 +6,7 @@
  * @...:The parameters to be summed.
  * @separator:theseparator between.
  *
- * Return:The sum of all the parameters.
+ * Return:The sum f all the parameters.
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
