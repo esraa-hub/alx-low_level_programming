@@ -5,7 +5,7 @@
  * @n:The number of parametrs.
  * @...:The parameters to be summed.
  *
- * Return:The sum of all the parameters.
+ * Return:The sum of all the parame;ters.
  */
 int sum_them_all(const unsigned int n, ...)
 {
