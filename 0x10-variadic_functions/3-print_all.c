@@ -32,7 +32,7 @@ void format_float(char *separator, va_list ap)
 /**
  * format_string-returns the sum of all its parameters.
  *
- * @separtor:The number of parametrs.
+ * @separator:The number of parametrs.
  * @ap:The parameters to be summed.
  */
 void format_string(char *separator, va_list ap)
