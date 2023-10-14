@@ -2,7 +2,7 @@
 /**
  * format_char-returns the sum of all its parameters.
  *
- * @separtor:The number of parametrs.
+ * @separator:The number of parametrs.
  * @ap:The parameters to be summed.
  */
 void format_char(char *separator, va_list ap)
@@ -12,7 +12,7 @@ void format_char(char *separator, va_list ap)
 /**
  * format_int-returns the sum of all its parameters.
  *
- * @separtor:The number of parametrs.
+ * @separator:The number of parametrs.
  * @ap:The parameters to be summed.
  */
 void format_int(char *separator, va_list ap)
@@ -22,7 +22,7 @@ void format_int(char *separator, va_list ap)
 /**
  * format_float-returns the sum of all its parameters.
  *
- * @separtor:The number of parametrs.
+ * @separator:The number of parametrs.
  * @ap:The parameters to be summed.
  */
 void format_float(char *separator, va_list ap)
@@ -47,13 +47,10 @@ void format_string(char *separator, va_list ap)
 	printf("%s%s", separator, str);
 }
 /**
- * print_strings-returns the sum of all its parameters.
+ * print_all-returns the sum of all its parameters.
  *
- * @n:The number of parametrs.
- * @...:The parameters to be summed.
- * @separator:theseparator between.
+ * @format:The number of parametrs.
  *
- * Return:The sum f all the parameters.
  */
 void print_all(const char *const format, ...)
 {
@@ -76,7 +73,7 @@ void print_all(const char *const format, ...)
 		{
 			if (format[i] == tokens[j].token[0])
 			{
-				token[j].(separator.ap);
+				token[j].f(separator, ap);
 				separator = ", ";
 			}
 			j++;
