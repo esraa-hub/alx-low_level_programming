@@ -5,7 +5,7 @@
  * main- ijijj.
  *
  * @argc:fsdsff.
- * @argv:gdfgdg.
+ * @argv:gdfg
  *
  * Return:always 0.
  */
