@@ -2,25 +2,36 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * add_node-thefunction to print the listed link
+ * add_node_end-thefunction to print the listed link
  *
- * @h:the linked list to be printed
+ * @head:the linked list to be printed
+ * @str:cjnjjhffjh
  *
  * Return:the size ofe list
  */
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new ;
+	list_t *new, *tmp;
 	unsigned int i = 0;
 
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
 		return (NULL);
-	while(str[i])
+	while (str[i])
 		i++;
 	new->len = i;
 	new->str = strdup(str);
-	new->next = *head;
-	*head = new;
+	new->next = NULL;
+	tmp = *head;
+	if (tmp == NULL)
+	{
+		*head = new;
+	}
+	else
+	{
+		while (temp->next != NULL)
+			temp = temp->next;
+		temp->next = new;
+	}
 	return (new);
 }
