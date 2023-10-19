@@ -4,7 +4,7 @@
  *
  * @h:the linked list to be printed
  *
- * Return:the size ofhe list
+ * Return:the size ofe list
  */
 size_t print_list(const list_t *h)
 {
