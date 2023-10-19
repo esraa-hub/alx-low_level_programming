@@ -1,4 +1,5 @@
 #include "list.h"
+#include <stdlib.h>
 /**
  * free_list-the function
  *
