@@ -1,4 +1,6 @@
 #include "list.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * print_list-thefunction to print the listed link
  *
