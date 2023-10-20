@@ -1,6 +1,5 @@
-#include "lists.h"
 #include <stdio.h>
-void first(void)__attribute__((constructor));
+void first(void) __attribute__ ((constructor));
 /**
  * first-function
  * he function is excuted
