@@ -1,4 +1,6 @@
 #include "list.h"
+#include <stdio.h>
+
 /**
  * listint_len-thefun.
  *
