@@ -1,19 +1,20 @@
 #include "main.h"
-* print binary - prints a number as binary string
-On: the number to print
-Return: void
-*/
-void print.binary(unsigned long int n)
-int bit - sizeof(n) * 8, printed ~ 0;
-while (bit)
-if
-(n & 1L «< --bit)
-putchar('1');
-printed-+;
+/**
+ * binary_to_uint-converts a binary number string to unsigned int
+ * @b: the binary number as a string
+ * Return: the unsigned int form of b
+ */
+unsigned int binary_to_uint(const char *b)
+{
+	unsigned int num = 0;
+
+	if (!b)
+		return (0);
+	while (*b)
+	{
+		if (*b != '0' && *b != '1')
+			return (0);
+		num = num * 2 + (*b++ - '0');
+	}
+	return (num);
 }
-else if (printed)
-_putchar(0);
-if (!printed)
-_putchar(*0');
-25.1
-A11-
