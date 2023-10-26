@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 /**
  * flip_bits-to another
  * @n: first number
